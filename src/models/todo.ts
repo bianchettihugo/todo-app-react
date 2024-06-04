@@ -1,4 +1,4 @@
-class ToDo {
+export default class ToDo {
   name: string;
   done: boolean;
   id: string;

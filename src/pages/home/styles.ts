@@ -38,9 +38,45 @@ export const styles = StyleSheet.create({
   input: {
     backgroundColor: 'white',
     padding: 12,
-    fontSize: 14,
+    fontSize: 16,
     height: 50,
     borderRadius: 8,
     flex: 1,
+  },
+
+  button: {
+    backgroundColor: '#d90429',
+    padding: 12,
+    borderRadius: 6,
+    marginLeft: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  list: {
+    padding: 12,
+    marginTop: 30,
+  },
+
+  infoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 12,
+    paddingRight: 20,
+    paddingLeft: 20,
+    backgroundColor: '#E4E4E4',
+  },
+
+  infoText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginLeft: 5,
+  },
+
+  infoSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
   }
 });
